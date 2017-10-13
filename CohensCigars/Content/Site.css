@@ -1,4 +1,6 @@
 ﻿body {
+    background-color: black; 
+    color: #999999;
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -22,3 +24,8 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.inversed img {
+   -webkit-filter: invert(1);
+   filter: invert(1);
+   }

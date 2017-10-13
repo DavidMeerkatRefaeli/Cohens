@@ -27,6 +27,9 @@ namespace CohensCigars.Controllers
             return View();
         }
 
-
+        //public ViewResult Bootstrap1()
+        //{
+        //    return View();
+        //}
     }
 }
