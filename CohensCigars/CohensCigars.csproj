@@ -222,6 +222,8 @@
     <Content Include="images\2.jpg" />
     <Content Include="images\3.jpg" />
     <Content Include="images\4.jpg" />
+    <Content Include="images\band-small.jpg" />
+    <Content Include="images\navbar-final.jpg" />
     <Content Include="images\vintage.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

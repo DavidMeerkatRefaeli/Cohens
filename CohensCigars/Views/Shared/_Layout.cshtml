@@ -15,6 +15,7 @@
             <h1><img src="~/images/vintage.jpg" />Cohen's Cigars<img src="~/images/vintage.jpg" /></h1>
         </div>       
     </div>
+    @*<div class="line-separator"></div>*@
     <div class="navbar navbar-custom">
         <div class="container">
             <div class="navbar-header">
@@ -33,6 +34,9 @@
                     <li>@Html.ActionLink("Orders", "Index", "Orders")</li>
                     <li>@Html.ActionLink("Membership Club", "Index", "Membership")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>
+                        <img height="50" hspace="120" src="~/images/navbar-brand.jpg" />
+                    </li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
